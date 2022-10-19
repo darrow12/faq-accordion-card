@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-900: hsl(238, 29%, 16%);
+  --blue-300: hsl(240, 73%, 65%);
+  --violet-500: hsl(273, 75%, 66%);
+  --red-200: hsl(14, 88%, 65%);
+  --font-size: 12px;
+  font-family: "Kumbh Sans", Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=global.css.map */
