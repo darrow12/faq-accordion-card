@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(180deg, #AF67E9 0%, #6565E7 100%) no-repeat;
+}
+
+.card {
+  border-radius: 16px;
+  background: #fff;
+  padding: 1.2rem;
+  margin: 10rem 1.2rem 0;
+  position: relative;
+}
+.card__image {
+  display: flex;
+  justify-content: center;
+}
+.card__highlight-image {
+  position: absolute;
+  top: 0;
+  transform: translate(0, -50%);
+}
+.card__title {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-400);
+}/*# sourceMappingURL=card.css.map */

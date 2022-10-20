@@ -1,3 +1,5 @@
+@import "card.css";
+@import "faq.css";
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +11,12 @@
   --blue-300: hsl(240, 73%, 65%);
   --violet-500: hsl(273, 75%, 66%);
   --red-200: hsl(14, 88%, 65%);
-  --font-size: 12px;
+  --text-400: hsl(237, 12%, 33%);
+  --text-200: hsl(240, 6%, 50%);
+  --divider: hsl(240, 5%, 91%);
+  --font-size: 0.75rem;
   font-family: "Kumbh Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,8 +27,10 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
 }
-
 .attribution a {
   color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=global.css.map */
