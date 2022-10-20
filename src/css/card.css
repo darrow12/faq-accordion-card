@@ -6,20 +6,26 @@ body {
   border-radius: 16px;
   background: #fff;
   padding: 1.2rem;
-  margin: 10rem 1.2rem 0;
+  margin: 50% 1.2rem 0;
   position: relative;
 }
 .card__image {
   display: flex;
   justify-content: center;
+  margin-bottom: 35%;
 }
 .card__highlight-image {
   position: absolute;
   top: 0;
-  transform: translate(0, -50%);
+  transform: translate(0, -60%);
+  width: 75%;
+}
+.card__bg-pattern {
+  position: absolute;
+  transform: translate(0, -20%);
+  width: 75%;
 }
 .card__title {
-  margin-top: 8rem;
   margin-bottom: 2rem;
   text-align: center;
   color: var(--text-400);
