@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(180deg, #AF67E9 0%, #6565E7 100%) no-repeat;
+}
+
+.card {
+  border-radius: 16px;
+  background: #fff;
+  padding: 1.2rem;
+  margin: 50% 1.2rem 0;
+  position: relative;
+}
+.card__image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35%;
+}
+.card__highlight-image {
+  position: absolute;
+  top: 0;
+  transform: translate(0, -60%);
+  width: 75%;
+}
+.card__bg-pattern {
+  position: absolute;
+  transform: translate(0, -20%);
+  width: 75%;
+}
+.card__title {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-400);
+}
+
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq__list {
+  list-style: none;
+}
+.faq__item {
+  border-bottom: 1px solid var(--divider);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.faq__item:last-child {
+  padding-bottom: 1.75rem;
+  border: none;
+}
+.faq__question-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  color: var(--text-400);
+}
+.faq__question {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.faq__question:hover {
+  color: var(--red-200);
+}
+.faq__question-button {
+  height: 35px;
+  width: 35px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0px solid var(--red-200);
+  flex-shrink: 0;
+}
+.faq__question-button, .faq__question-icon {
+  transition: all 0.25s ease-in-out;
+}
+.faq__answer {
+  color: var(--text-200);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-900: hsl(238, 29%, 16%);
+  --blue-300: hsl(240, 73%, 65%);
+  --violet-500: hsl(273, 75%, 66%);
+  --red-200: hsl(14, 88%, 65%);
+  --text-400: hsl(237, 12%, 33%);
+  --text-200: hsl(240, 6%, 50%);
+  --divider: hsl(240, 5%, 91%);
+  --font-size: 0.75rem;
+  font-family: "Kumbh Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=global.css.map */
