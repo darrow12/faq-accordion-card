@@ -5,7 +5,7 @@
   </a>
 
   <h3>FAQ Accordion Card</h3>
-  <p>A simple FAQ accordion card challenge</p>
+  <p>Just a simple FAQ accordion card challenge</p>
 
   <!-- Readme languages -->
   <p>
@@ -47,6 +47,7 @@ I thought it was a cool challenge. I was able to fix my knowledge in Sass, and p
 <h2 id="demo">:sparkles: · Demo</h2>
 
 Want to see a live demo of the project is doing? It's already deployed with Vercel!
+
 Click the link or the Vercel badge down below: https://faq-accordion-card-darrow.vercel.app/
 
 [![Deploy with Vercel](https://vercel.com/button)](https://faq-accordion-card-darrow.vercel.app/)
