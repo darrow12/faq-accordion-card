@@ -38,6 +38,7 @@ body {
 }
 .faq__list {
   list-style: none;
+  width: 100%;
 }
 .faq__item {
   border-bottom: 1px solid var(--divider);
@@ -75,6 +76,10 @@ body {
 }
 .faq__answer {
   color: var(--text-200);
+  display: none;
+}
+.active .faq__answer {
+  display: block;
 }
 
 *,
